@@ -1,0 +1,11 @@
+
+// 2. web项目中打包成war
+apply plugin: 'war'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":repository")
+}

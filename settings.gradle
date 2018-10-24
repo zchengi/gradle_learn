@@ -1,0 +1,5 @@
+rootProject.name = 'todo'
+include 'web'
+include 'repository'
+include 'model'
+
